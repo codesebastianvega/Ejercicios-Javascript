@@ -4,10 +4,7 @@ Si el string está todo en mayúsculas la función debe retornar la frase "Ahh s
 
 Por último, si el string es vacío (o son sólo espacios) debe retornar la frase "Dices algo?". */
 
-abuela("hola"); // "Habla más duro mijito"
-abuela("HOLA"); // "Ahh si, manzanas!"
-abuela(""); // "Dices algo?"
-abuela("    "); // "Dices algo?"
+
 
 const abuela = (cadena) => {
     if (cadena.trim() === "") {
@@ -19,4 +16,7 @@ const abuela = (cadena) => {
     }
 }
 
-console.log(abuela("hola"))
+console.log(abuela("hola")); // "Habla más duro mijito"
+console.log(abuela("HOLA")); // "Ahh si, manzanas!"
+console.log(abuela("")); // "Dices algo?"
+console.log(abuela("    ")); // "Dices algo?"
