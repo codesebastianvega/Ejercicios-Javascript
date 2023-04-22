@@ -34,4 +34,4 @@ const contrasena = (cadena) => {
     return clave
 }
 
-console.log(contrasena("hola"))
+console.log(contrasena("Hola mi amor day"))
