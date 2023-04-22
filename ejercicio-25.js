@@ -23,4 +23,4 @@ function calcularColor(num) {
   return "El color es " + color;
 }
 
-console.log(calcularColor(2)) // El color es blanco
+console.log(calcularColor(2)) 
