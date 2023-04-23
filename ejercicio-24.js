@@ -15,3 +15,5 @@ function bmi(peso,altura) {
 }
 
 console.log(bmi(82,1.80))
+console.log(bmi(72,1.90))
+console.log(bmi(82,1.60))
