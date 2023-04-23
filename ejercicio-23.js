@@ -16,3 +16,4 @@ function esMultiplo(a,b) {
 
 console.log(esMultiplo(21,7))
 console.log(esMultiplo(20,6))
+console.log(esMultiplo(15,3))
