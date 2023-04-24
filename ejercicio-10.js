@@ -22,5 +22,5 @@ if (bmi < 18.5) {
 } else if (bmi >= 25 && bmi <= 29.9) {
     console.log("BMI = " + bmi + ", Tienes sobrepeso")
 } else {
-    console.log("BMI = " + bmi + ", Eres Obeso")
+    console.log("BMI = " + bmi + ", Estas Obeso")
 }
