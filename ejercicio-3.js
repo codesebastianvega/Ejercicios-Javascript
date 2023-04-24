@@ -2,5 +2,5 @@
 */
 
 let num1 = parseInt(prompt("Escribe un numero"))
-let num2 = parseInt(prompt("Escribe otro numero"))
-console.log(num1 + num2)
+let num3 = parseInt(prompt("Escribe otro numero"))
+console.log(num1 + num3)
