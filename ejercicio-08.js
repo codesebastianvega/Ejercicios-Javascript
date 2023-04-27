@@ -4,9 +4,9 @@ Escribe un programa que le pida al usuario un número e imprima si es un múltip
 
 Si es múltiplo debe imprimir "Si, el número x es múltiplo 5", de lo contrario debe imprimir "No, el número x no es múltiplo de 5". */
 
-let num = parseInt(prompt("Escribe un numero "))
+let num = parseInt(prompt("Escribe un numero "));
 if (num % 5 === 0) {
-console.log("Si, el numero " + num + " es multiplo de 5")
+  console.log("Si, el numero " + num + " es multiplo de 5");
 } else {
-    console.log("No, el numero " + num + " no es multiplo de 5")
+  console.log("No, el numero " + num + " no es multiplo de 5");
 }
