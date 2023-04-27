@@ -9,8 +9,8 @@ Escribe un programa que le pida al usuario su peso y su altura para calcular su 
 Por ejemplo, si el usuario ingresa 65 de peso y 1.8 de altura el programa debe imprimir en la consola la frase "Tu BMI es 20.061728395061728".
 */
 
-let peso = prompt("Cuanto pesas en kg? ")
-let altura = prompt("Cual es tu estatura en metros? ")
-let bmi = parseFloat(peso)/ Math.pow(parseFloat(altura), 2)
+let peso = prompt("Cuanto pesas en kg? ");
+let altura = prompt("Cual es tu estatura en metros? ");
+let bmi = parseFloat(peso) / Math.pow(parseFloat(altura), 2);
 
-console.log("Tu IBM es " + bmi)
+console.log("Tu IBM es " + bmi);
