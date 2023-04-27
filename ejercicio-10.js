@@ -11,16 +11,16 @@ Escribe un programa que le pida al usuario su peso y altura. El programa deberá
 "Sobrepeso" si está entre 25 y 29.9
 "Obeso" si es igual o mayor a 30 */
 
-let peso = prompt("Cual es tu peso en kg ")
-let altura = prompt("Cual tu estatura en metros ")
-let bmi = parseFloat(peso)/Math.pow(parseFloat(altura), 2)
+let peso = prompt("Cual es tu peso en kg ");
+let altura = prompt("Cual tu estatura en metros ");
+let bmi = parseFloat(peso) / Math.pow(parseFloat(altura), 2);
 
 if (bmi < 18.5) {
-    console.log("BMI = " + bmi + ", Estas bajo de peso")
+  console.log("BMI = " + bmi + ", Estas bajo de peso");
 } else if (bmi >= 18.5 && bmi <= 24.9) {
-    console.log("BMI = " + bmi + ", Tu peso es normal")
+  console.log("BMI = " + bmi + ", Tu peso es normal");
 } else if (bmi >= 25 && bmi <= 29.9) {
-    console.log("BMI = " + bmi + ", Tienes sobrepeso")
+  console.log("BMI = " + bmi + ", Tienes sobrepeso");
 } else {
-    console.log("BMI = " + bmi + ", Estas Obeso")
+  console.log("BMI = " + bmi + ", Estas Obeso");
 }
