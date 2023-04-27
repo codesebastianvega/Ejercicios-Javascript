@@ -2,7 +2,7 @@
 
 Tienes 29 años */
 
-let nacimiento = parseInt(prompt("En que año naciste? "))
-let year = new Date().getFullYear()
-let calculo = year - nacimiento
-console.log("Tienes " + calculo + " años.") 
+let nacimiento = parseInt(prompt("En que año naciste? "));
+let year = new Date().getFullYear();
+let calculo = year - nacimiento;
+console.log("Tienes " + calculo + " años.");
