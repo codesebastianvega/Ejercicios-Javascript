@@ -2,5 +2,5 @@
 
 //Por ejemplo, si el usuario ingresa "Pedro" el programa debe imprimir en la consola "Hola Pedro!".
 
-let nombre = prompt("Como es tu Nombre? ")
-console.log("Hola" + nombre + "!")
+let nombre = prompt("Como es tu Nombre? ");
+console.log("Hola" + nombre + "!");
