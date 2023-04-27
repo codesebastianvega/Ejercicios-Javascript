@@ -4,7 +4,7 @@ let num = parseInt(prompt("Adivina un numero entre 1 y 10"));
 let randomNum = Math.floor(Math.random() * 10) + 1;
 
 if (randomNum === num) {
-  console.log("Felicidades, ese era")
+  console.log("Felicidades, ese era");
 } else {
-  console.log("Lo siento el numero era " + randomNum + ", intenta nuevamente.")
+  console.log("Lo siento el numero era " + randomNum + ", intenta nuevamente.");
 }
