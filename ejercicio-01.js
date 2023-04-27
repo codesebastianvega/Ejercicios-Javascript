@@ -2,5 +2,5 @@
 
 //Recuerda que para pedirle al usuario que escriba una frase debes utilizar el método prompt() y para escribir en la consola debes utilizar el método console.log().
 
-let frase = prompt("escribe una frase: ")
-console.log(frase)
+let frase = prompt("escribe una frase: ");
+console.log(frase);
