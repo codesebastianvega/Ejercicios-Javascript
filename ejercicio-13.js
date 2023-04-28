@@ -2,7 +2,6 @@
 
 Nota: utiliza un ciclo para imprimir la frase las 10 veces.*/
 
-let frase = prompt("Escribe una frase por favor")
+let frase = prompt("Escribe una frase por favor");
 
-for(let i = 1; i <= 10; i++)
-console.log(frase)
+for (let i = 1; i <= 10; i++) console.log(frase);
