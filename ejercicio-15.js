@@ -2,7 +2,6 @@
 
 Por ejemplo, si el usuario ingresa el número 5, el programa de be imprimir:*/
 
-let num = prompt("Escribe un numero")
+let num = prompt("Escribe un numero");
 
-for(let i = 1; i <= num; i++)
-console.log(i)
+for (let i = 1; i <= num; i++) console.log(i);
