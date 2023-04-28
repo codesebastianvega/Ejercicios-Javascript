@@ -1,7 +1,7 @@
 
-# Aprendiendo logica de JS con ejercicios de Make It Real
+# Aprendiendo logica de JS con ejercicios
 
-Aprendiendo lógica de javascript con ejercicios de make it real
+Adquiriendo experiencia en la programación JavaScript completando tareas proporcionadas por varios proveedores de educación o utilizando bootcamps online  yo todo GRATIS.
 
 ## Autor
 
