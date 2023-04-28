@@ -7,16 +7,16 @@
 "Z" si es igual o mayor a 1995
 Por ejemplo, si el usuario ingresa el año 1920 el programa de imprimir "Gran generación".*/
 
-let date = prompt("Cual es tu año de nacimiento? ")
+let date = prompt("Cual es tu año de nacimiento? ");
 
 if (date < 1945) {
-    console.log("Gran generación")
+  console.log("Gran generación");
 } else if (date >= 1945 && date <= 1964) {
-    console.log("Baby boomer")
+  console.log("Baby boomer");
 } else if (date >= 1965 && date <= 1981) {
-    console.log("Genereración X")
+  console.log("Genereración X");
 } else if (date >= 1982 && date <= 1994) {
-    console.log("Millenial")
+  console.log("Millenial");
 } else {
-    console.log("Genereración Z")
+  console.log("Genereración Z");
 }
