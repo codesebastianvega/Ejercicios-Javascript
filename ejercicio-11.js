@@ -6,14 +6,14 @@ Si el número es múltiplo tanto de 3 como de 5 debe imprimir en la consola "bin
 Si el no cumple ninguna de las condiciones anteriores debe imprimir el mismo número.
 */
 
-let num = prompt("Escribe un numero")
+let num = prompt("Escribe un numero");
 
 if (num % 3 === 0 && num % 5 === 0) {
-    console.log("bingbong")
+  console.log("bingbong");
 } else if (num % 3 === 0) {
-    console.log("bing")
+  console.log("bing");
 } else if (num % 5 === 0) {
-    console.log("bong")
+  console.log("bong");
 } else {
-    console.log(num)
+  console.log(num);
 }
