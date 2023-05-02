@@ -1,5 +1,8 @@
 //Juego piedra papel y tijera
 
+const opcionesJug = ["tijeras", "papel", "piedra"];
+const jug = opcionesJug[Math.floor(Math.random() * opcionesJug.length)];
+
 const opcionesCpu = ["tijeras", "papel", "piedra"];
 const cpu = opcionesCpu[Math.floor(Math.random() * opcionesCpu.length)];
 
@@ -20,7 +23,7 @@ function game(jugador, cpu) {
 }
 
 // Escoge entre "piedra", "papel", "tijeras":
-let selec = "papel";
+//let selec = "papel";
 
 // Llamar a la función con la selección del usuario y la selección aleatoria de la CPU
-game(selec, cpu);
+game(jug, cpu);
