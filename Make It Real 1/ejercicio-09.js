@@ -2,7 +2,7 @@
 
 Si el número es menor a 10 debe imprimir "El número es menor que 10".
 
-Si el número es mayor a 10 debe imprimir "El número es mayor que 10".
+Si el número es mayor a 10 debe imprimir "El número es mayor que 10".  
 
 Si el número es igual a 10 debe imprimir "El número es igual a 10".*/
 
