@@ -2,7 +2,7 @@
 
 El BMI se calcula con la siguiente formula: 
 
-peso / altura^2
+peso / altura^2  
 
 Escribe un programa que le pida al usuario su peso y su altura para calcular su BMI e imprima la frase "Tu BMI es X".
 
